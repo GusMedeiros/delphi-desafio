@@ -1,0 +1,9 @@
+É a arquitetura Model-View-Controller.
+
+É composto pelo modelo, que representa os dados da aplicação. Na prática, são classes ou estruturas de dados que se traduzem em entidades do banco de dados e vice versa.
+
+Pelos controladores, que são as partes da aplicação especializadas em atender cada tipo de requisição ou tarefa.
+
+Pelo view (visualização), que seria a parte da aplicação responsável por renderizar para um usuário aquilo que a parte controlador decidiu que 
+
+Em spring, por exemplo, o usuário, a partir do front end (view) faria requisições ao servidor através da API. Essa, por sua vez, acionaria os controladores corretos definidos para aquele tipo de requisição. Os controladores, então, retornariam ao usuário os dados necessários (model) para que o view renderize uma resposta ao usuário.

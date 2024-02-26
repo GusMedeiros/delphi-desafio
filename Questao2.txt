@@ -1,0 +1,9 @@
+Padrão strategy:
+é um padrão que busca tornar uma classe adaptável sem mudar código antigo.
+
+A ideia é que uma classe pode ter, diferentes comportamentos sem alterar código em uso. Uma classe pode ter, por exemplo, um atributo que seria o strategy definido em runtime,
+o que significa que o comportamento da classe poderá variar a cada execução.
+
+Um cenário de uso seria com a classe veículo. A classe veículo pode ter o atributo strategy que seria uma interface que implementa o método "locomover".
+Com isso, a depender do veículo que o usuário deseja, poderá se locomover de diferentes maneiras, sem desperdiçar código antigo. Se um novo veículo surgir,
+basta criar uma nova classe que implementa a interface em questão.
